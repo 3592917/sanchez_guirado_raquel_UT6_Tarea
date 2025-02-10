@@ -20,16 +20,8 @@ public class Vehiculo {
         return marca;
     }
 
-    public void setMarca(String marca) {
-        this.marca = marca;
-    }
-
     public String getMatricula() {
         return matricula;
-    }
-
-    public void setMatricula(String matricula) {
-        this.matricula = matricula;
     }
 
     public int getKilometros() {
@@ -40,48 +32,12 @@ public class Vehiculo {
         this.kilometros = kilometros;
     }
 
-    public LocalDate getFechaMatriculacion() {
-        return fechaMatriculacion;
-    }
-
-    public void setFechaMatriculacion(LocalDate fechaMatriculacion) {
-        this.fechaMatriculacion = fechaMatriculacion;
-    }
-
     public String getDescripcion() {
         return descripcion;
     }
 
-    public void setDescripcion(String descripcion) {
-        this.descripcion = descripcion;
-    }
-
     public Double getPrecio() {
         return precio;
-    }
-
-    public void setPrecio(Double precio) {
-        this.precio = precio;
-    }
-
-    public String getNombrePropietario() {
-        return nombrePropietario;
-    }
-
-    public void setNombrePropietario(String nombrePropietario) {
-        this.nombrePropietario = nombrePropietario;
-    }
-
-    public String getDniPropietario() {
-        return dniPropietario;
-    }
-
-    public void setDniPropietario(String dniPropietario) {
-        this.dniPropietario = dniPropietario;
-    }
-
-    public int getAnnio() {
-        return LocalDate.now().getYear() - fechaMatriculacion.getYear();
     }
 
     public Vehiculo(String marca,
